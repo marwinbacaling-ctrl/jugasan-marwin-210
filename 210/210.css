@@ -6,7 +6,7 @@ body {
 	margin: 0;
 
 	/* FULL BACKGROUND IMAGE */
-	background: url("/210/backg.jpg") no-repeat center center fixed;
+	background: url("images/backg.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -30,7 +30,7 @@ li { text-decoration: none; list-style-type: none; display: block; color: #fff; 
 header { margin-bottom: 20px; float: left; }
 
 h1 { 
-	background: transparent url(h1.gif) no-repeat top left;  
+	background: transparent url(images/h1.gif) no-repeat top left;  
 	width: 355px; 
 	height: 29px; 
 	float: left;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
+	background: transparent url(images/h2.gif) no-repeat top left; 
 	width: 167px; 
 	height: 12px; 
 	float: right;
@@ -46,7 +46,7 @@ h2 {
 }
 
 .summary p:first-child {
-	background: transparent url(summary.gif) no-repeat;
+	background: transparent url(images/summary.gif) no-repeat;
 	width: 356px;
 	height: 49px;
 	margin: 0px 0px 6px 0px;
@@ -145,22 +145,22 @@ h2 {
 	margin: 0px;
 }
 
-.preamble h3 { background: transparent url(h3_road.gif) no-repeat; }
-.explanation h3 { background: transparent url(h3_about.gif) no-repeat; }
-.participation h3 { background: transparent url(h3_participation.gif) no-repeat; }
-.benefits h3 { background: transparent url(h3_benefits.gif) no-repeat; }
-.requirements h3 { background: transparent url(h3_requirements.gif) no-repeat; }
+.preamble h3 { background: transparent url(images/h3_road.gif) no-repeat; }
+.explanation h3 { background: transparent url(images/h3_about.gif) no-repeat; }
+.participation h3 { background: transparent url(images/h3_participation.gif) no-repeat; }
+.benefits h3 { background: transparent url(images/h3_benefits.gif) no-repeat; }
+.requirements h3 { background: transparent url(images/h3_requirements.gif) no-repeat; }
 
-.sidebar h3.select { background: transparent url(h3_select.gif) no-repeat; }
+.sidebar h3.select { background: transparent url(images/h3_select.gif) no-repeat; }
 
 .sidebar h3.archives {
 	margin-top: 22px; 
-	background: transparent url(h3_archives.gif) no-repeat; 
+	background: transparent url(images/h3_archives.gif) no-repeat; 
 }
 
 .sidebar h3.resources {
 	margin-top: 22px; 
-	background: transparent url(h3_resources.gif) no-repeat; 
+	background: transparent url(images/h3_resources.gif) no-repeat; 
 }
 
 .preamble h3, 
@@ -195,7 +195,7 @@ footer a:link, footer a:visited {
 }
 
 .extra3 { 
-	background: url(/210/fish01.png) no-repeat right top; 
+	background: url(images/fish01.png) no-repeat right top; 
 	z-index: 3;
 	top: 960px;
 	right: 4%;
@@ -208,7 +208,7 @@ footer a:link, footer a:visited {
 .extra3::after { 
 	display: block;
 	content: " ";
-	background: url(fish_bottom.gif) no-repeat; 
+	background: url(images/fish_bottom.gif) no-repeat; 
 	z-index: 3;
 	top: 1000px;
 	width: 224px; 
@@ -216,7 +216,7 @@ footer a:link, footer a:visited {
 } 
 
 .extra5 { 
-	background: url(fish_top.gif) no-repeat; 
+	background: url(images/fish_top.gif) no-repeat; 
 	z-index: 7;
 	top: 220px;
 	left: 20px;
@@ -236,7 +236,7 @@ footer a:link, footer a:visited {
 	height: 200px;
 	display: block;
 	content: "";
-	background: url(/210/seafloor.png) repeat-x bottom;
+	background: url(images/seafloor.png) repeat-x bottom;
 	z-index: 1;
 }
 
